@@ -4,9 +4,7 @@
     <projectFile>WEPA/WEPA.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Code cleanup">
-      <change beforePath="$PROJECT_DIR$/WEPA/FrmHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/FrmHome.cs" afterDir="false" />
-    </list>
+    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Updated compiles" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +17,7 @@
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmAdvanced.cs" root0="SKIP_HIGHLIGHTING" />
@@ -78,7 +77,7 @@
       <workItem from="1620495345460" duration="17000" />
       <workItem from="1620495467715" duration="674000" />
       <workItem from="1620506547299" duration="16000" />
-      <workItem from="1620506719644" duration="3331000" />
+      <workItem from="1620506719644" duration="3415000" />
     </task>
     <task id="LOCAL-00001" summary="Updated home page">
       <created>1620496128747</created>
@@ -129,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620510072615</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Code cleanup">
+      <created>1620510093722</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620510093722</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated compiles">
+      <created>1620510119189</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620510119189</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +174,7 @@
     <MESSAGE value="Updated compiled files" />
     <MESSAGE value="Added and completed Advanced form" />
     <MESSAGE value="Code cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code cleanup" />
+    <MESSAGE value="Updated compiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated compiles" />
   </component>
 </project>
