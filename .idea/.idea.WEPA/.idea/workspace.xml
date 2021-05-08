@@ -4,7 +4,13 @@
     <projectFile>WEPA/WEPA.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Updated compiles" />
+    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Cleanup compiles">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/Apps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/Apps.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.FileListAbsolute.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +32,12 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/WEPA/Program.cs" />
       <option value="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" />
       <option value="$PROJECT_DIR$/WEPA/FrmAdvanced.Designer.cs" />
       <option value="$PROJECT_DIR$/WEPA/FrmAdvanced.cs" />
       <option value="$PROJECT_DIR$/WEPA/FrmHome.cs" />
+      <option value="$PROJECT_DIR$/WEPA/Apps.cs" />
+      <option value="$PROJECT_DIR$/WEPA/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sGODF2B3JWn7ubfMElgAhBOxzi" />
@@ -77,7 +84,7 @@
       <workItem from="1620495345460" duration="17000" />
       <workItem from="1620495467715" duration="674000" />
       <workItem from="1620506547299" duration="16000" />
-      <workItem from="1620506719644" duration="3415000" />
+      <workItem from="1620506719644" duration="4153000" />
     </task>
     <task id="LOCAL-00001" summary="Updated home page">
       <created>1620496128747</created>
@@ -142,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620510119189</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Workspace update">
+      <created>1620510203471</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620510203471</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cleanup compiles">
+      <created>1620510407212</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620510407212</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +196,8 @@
     <MESSAGE value="Added and completed Advanced form" />
     <MESSAGE value="Code cleanup" />
     <MESSAGE value="Updated compiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated compiles" />
+    <MESSAGE value="Workspace update" />
+    <MESSAGE value="Cleanup compiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup compiles" />
   </component>
 </project>
