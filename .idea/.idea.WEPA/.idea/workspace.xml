@@ -4,12 +4,9 @@
     <projectFile>WEPA/WEPA.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Cleanup compiles">
+    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/Apps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/Apps.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.FileListAbsolute.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,17 +16,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmAdvanced.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmAdvanced.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" />
@@ -38,6 +24,8 @@
       <option value="$PROJECT_DIR$/WEPA/FrmHome.cs" />
       <option value="$PROJECT_DIR$/WEPA/Apps.cs" />
       <option value="$PROJECT_DIR$/WEPA/Program.cs" />
+      <option value="$PROJECT_DIR$/.gitignore" />
+      <option value="$PROJECT_DIR$/.git/info/exclude" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sGODF2B3JWn7ubfMElgAhBOxzi" />
@@ -84,7 +72,8 @@
       <workItem from="1620495345460" duration="17000" />
       <workItem from="1620495467715" duration="674000" />
       <workItem from="1620506547299" duration="16000" />
-      <workItem from="1620506719644" duration="4153000" />
+      <workItem from="1620506719644" duration="4174000" />
+      <workItem from="1620511114063" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="Updated home page">
       <created>1620496128747</created>
@@ -163,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620510407212</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Full cleanup and compile">
+      <created>1620510925650</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620510925650</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +194,7 @@
     <MESSAGE value="Updated compiles" />
     <MESSAGE value="Workspace update" />
     <MESSAGE value="Cleanup compiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup compiles" />
+    <MESSAGE value="Full cleanup and compile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full cleanup and compile" />
   </component>
 </project>
