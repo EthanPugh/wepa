@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/FrmHome.resx" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/FrmHome.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/WEPA.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/WEPA.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.FrmHome.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.FrmHome.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +25,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/WEPA/Program.cs" />
       <option value="$PROJECT_DIR$/WEPA/FrmHome.cs" />
+      <option value="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sGODF2B3JWn7ubfMElgAhBOxzi" />
@@ -65,6 +81,7 @@
       <workItem from="1620495345460" duration="17000" />
       <workItem from="1620495467715" duration="674000" />
       <workItem from="1620506547299" duration="16000" />
+      <workItem from="1620506719644" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="Updated home page">
       <created>1620496128747</created>
