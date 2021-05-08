@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 /*
@@ -32,10 +33,7 @@ namespace WEPA
                     MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
                 if (result != DialogResult.Yes)
                 {
-                    if (result == DialogResult.Cancel)
-                    {
-                        return;
-                    }
+                    if (result == DialogResult.Cancel) return;
                 }
                 else
                 {
@@ -45,22 +43,22 @@ namespace WEPA
             }
 
             if (args == "") return;
-            var ps = new System.Diagnostics.ProcessStartInfo // Create new process.
+            var ps = new ProcessStartInfo // Create new process.
             {
                 FileName =
                     @"C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe", // Point the process to PowerShell.
                 Verb = "runas", // Invoke PowerShell as administrator.
-                Arguments = @args // Pass in arguments (commands to remove selected applications).
+                Arguments = args // Pass in arguments (commands to remove selected applications).
             };
-            System.Diagnostics.Process.Start(ps); // Execute the process.
+            Process.Start(ps); // Execute the process.
         }
 
         private void btnAdvanced_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             var frmAdvanced = new FrmAdvanced();
             frmAdvanced.ShowDialog();
-            this.Show();
+            Show();
         }
     }
 }
