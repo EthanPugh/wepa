@@ -16,3 +16,4 @@ C:\Users\Ethan\Documents\GitHub\wepa\WEPA\obj\Debug\net5.0-windows\WEPA.pdb
 C:\Users\Ethan\Documents\GitHub\wepa\WEPA\obj\Debug\net5.0-windows\WEPA.genruntimeconfig.cache
 C:\Users\Ethan\Documents\GitHub\wepa\WEPA\obj\Debug\net5.0-windows\WEPA.FrmHome.resources
 C:\Users\Ethan\Documents\GitHub\wepa\WEPA\obj\Debug\net5.0-windows\WEPA.csproj.GenerateResource.cache
+C:\Users\Ethan\Documents\GitHub\wepa\WEPA\obj\Debug\net5.0-windows\WEPA.FrmAdvanced.resources

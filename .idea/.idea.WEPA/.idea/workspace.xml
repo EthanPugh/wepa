@@ -4,17 +4,13 @@
     <projectFile>WEPA/WEPA.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Added easy functionality">
+    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Updated compiled files">
+      <change afterPath="$PROJECT_DIR$/WEPA/FrmAdvanced.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEPA/FrmAdvanced.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEPA/FrmHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/FrmHome.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/ref/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/ref/WEPA.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/ref/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/ref/WEPA.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/WEPA.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/WEPA.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -36,6 +33,7 @@
       <option value="$PROJECT_DIR$/WEPA/Program.cs" />
       <option value="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" />
       <option value="$PROJECT_DIR$/WEPA/FrmHome.cs" />
+      <option value="$PROJECT_DIR$/WEPA/FrmAdvanced.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sGODF2B3JWn7ubfMElgAhBOxzi" />
@@ -82,7 +80,7 @@
       <workItem from="1620495345460" duration="17000" />
       <workItem from="1620495467715" duration="674000" />
       <workItem from="1620506547299" duration="16000" />
-      <workItem from="1620506719644" duration="1863000" />
+      <workItem from="1620506719644" duration="3030000" />
     </task>
     <task id="LOCAL-00001" summary="Updated home page">
       <created>1620496128747</created>
@@ -105,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620507837888</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleaned up code">
+      <created>1620508625884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620508625884</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated compiled files">
+      <created>1620508708086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620508708086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +145,8 @@
     <MESSAGE value="Updated home page" />
     <MESSAGE value="Finalised home form" />
     <MESSAGE value="Added easy functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added easy functionality" />
+    <MESSAGE value="Cleaned up code" />
+    <MESSAGE value="Updated compiled files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated compiled files" />
   </component>
 </project>

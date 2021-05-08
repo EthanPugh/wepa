@@ -1,6 +1,13 @@
 ﻿using System;
 using System.Windows.Forms;
 
+/*
+ * Functionality for the home page. Guides users through the removal
+ * of the various applications, listing what data they can collect
+ * as it goes.
+ * 
+ * Author: Ethan Pugh
+ */
 namespace WEPA
 {
     public partial class FrmHome : Form
@@ -50,13 +57,10 @@ namespace WEPA
 
         private void btnAdvanced_Click(object sender, EventArgs e)
         {
-            /*
-            throw new System.NotImplementedException();
             this.Hide();
-            frmAdvanced frmAdvanced = new frmAdvanced();
+            var frmAdvanced = new FrmAdvanced();
             frmAdvanced.ShowDialog();
             this.Show();
-            */
         }
     }
 }
