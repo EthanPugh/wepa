@@ -4,14 +4,27 @@
     <projectFile>WEPA/WEPA.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="" />
+    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/FrmHome.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/WEPA.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/WEPA.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/WEPA/Program.cs" />
+      <option value="$PROJECT_DIR$/WEPA/FrmHome.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1sGODF2B3JWn7ubfMElgAhBOxzi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -55,14 +68,26 @@
       <option name="presentableId" value="Default" />
       <updated>1620495339117</updated>
       <workItem from="1620495345460" duration="17000" />
+      <workItem from="1620495467715" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
