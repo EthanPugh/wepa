@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -19,16 +20,13 @@ namespace WEPA
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         // Update listbox based on state of 'select all' checkbox.
         private void chkAll_CheckedChanged(object sender, EventArgs e)
         {
-            for (var i = 0; i < lstApps.Items.Count; i++)
-            {
-                lstApps.SetSelected(i, chkAll.Checked);
-            }
+            for (var i = 0; i < lstApps.Items.Count; i++) lstApps.SetSelected(i, chkAll.Checked);
         }
 
         // Remove applications selected in the listbox.
@@ -37,26 +35,22 @@ namespace WEPA
             var args = "";
 
             for (var i = lstApps.Items.Count - 1; i >= 0; i--)
-            {
                 if (lstApps.GetSelected(i))
-                {
                     args += "get-appxpackage *" + lstApps.Items[i].ToString()?.Split("`").Last() +
                             "* | remove-appxpackage;"; // Append a new argument to the args string.
-                }
-            }
 
             if (args != "")
             {
                 if (MessageBox.Show(@"Are you sure you want to remove the selected applications?", @"Confirmation",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Information) != DialogResult.Yes) return;
-                var ps = new System.Diagnostics.ProcessStartInfo // Create new process.
+                var ps = new ProcessStartInfo // Create new process.
                 {
                     FileName =
                         @"C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe", // Point the process to PowerShell.
                     Verb = "runas", // Invoke PowerShell as administrator.
-                    Arguments = @args // Pass in arguments (commands to remove selected applications).
+                    Arguments = args // Pass in arguments (commands to remove selected applications).
                 };
-                System.Diagnostics.Process.Start(ps); // Execute the process.
+                Process.Start(ps); // Execute the process.
             }
             else
             {
@@ -71,10 +65,7 @@ namespace WEPA
             // Add list of applications to the list box.
             var apps = Apps.GetList();
 
-            foreach (var str in apps)
-            {
-                lstApps.Items.Add(str);
-            }
+            foreach (var str in apps) lstApps.Items.Add(str);
         }
     }
 }
