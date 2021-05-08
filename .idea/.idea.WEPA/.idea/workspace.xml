@@ -4,7 +4,18 @@
     <projectFile>WEPA/WEPA.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Finalised home form" />
+    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="Added easy functionality">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/FrmHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/FrmHome.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/ref/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/ref/WEPA.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/ref/WEPA.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/ref/WEPA.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +28,14 @@
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Ethan/Documents/GitHub/wepa/WEPA/FrmHome.Designer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/WEPA/Program.cs" />
-      <option value="$PROJECT_DIR$/WEPA/FrmHome.cs" />
       <option value="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" />
+      <option value="$PROJECT_DIR$/WEPA/FrmHome.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sGODF2B3JWn7ubfMElgAhBOxzi" />
@@ -70,7 +82,7 @@
       <workItem from="1620495345460" duration="17000" />
       <workItem from="1620495467715" duration="674000" />
       <workItem from="1620506547299" duration="16000" />
-      <workItem from="1620506719644" duration="948000" />
+      <workItem from="1620506719644" duration="1863000" />
     </task>
     <task id="LOCAL-00001" summary="Updated home page">
       <created>1620496128747</created>
@@ -86,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620507638203</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added easy functionality">
+      <created>1620507837887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620507837888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +132,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Updated home page" />
     <MESSAGE value="Finalised home form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalised home form" />
+    <MESSAGE value="Added easy functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added easy functionality" />
   </component>
 </project>

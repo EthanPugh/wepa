@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace WEPA
@@ -13,45 +12,51 @@ namespace WEPA
 
         private void btnEasy_Click(object sender, EventArgs e)
         {
-            List<String> apps = Apps.GetList(); // Retrieve app list.
+            var apps = Apps.GetList(); // Retrieve app list.
 
-            String msg1 = "Would you like to remove ";
-            String msg2 = "? It can access/collect: ";
-            String args = "";
-            Boolean cancel = false;
+            const string msg1 = "Would you like to remove ";
+            const string msg2 = "? It can access/collect: ";
+            var args = "";
 
             // Generate argument string for PowerShell.
-            foreach (String str in apps)
+            foreach (var str in apps)
             {
-                DialogResult result = MessageBox.Show(msg1 + str.Split("`")[0] + msg2 + str.Split("`")[1], str.Split("`")[0], MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
+                var result = MessageBox.Show(msg1 + str.Split("`")[0] + msg2 + str.Split("`")[1], str.Split("`")[0],
+                    MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+                if (result != DialogResult.Yes)
                 {
-                    args += "get-appxpackage *" + str.Split("`")[2] + "* | remove-appxpackage;";    // Append a new argument to the args string.
+                    if (result == DialogResult.Cancel)
+                    {
+                        return;
+                    }
                 }
-                else if (result == DialogResult.Cancel)
+                else
                 {
-                    cancel = true;
-                    break;
+                    args += "get-appxpackage *" + str.Split("`")[2] +
+                            "* | remove-appxpackage;"; // Append a new argument to the args string.
                 }
             }
 
-            if (args != "" && cancel == false)
+            if (args == "") return;
+            var ps = new System.Diagnostics.ProcessStartInfo // Create new process.
             {
-                var ps = new System.Diagnostics.ProcessStartInfo();                         // Create new process.
-                ps.FileName = @"C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe"; // Point the process to PowerShell.
-                ps.Verb = "runas";                                                          // Invoke PowerShell as administrator.
-                ps.Arguments = @args;                                                       // Pass in arguments (commands to remove selected applications).
-                System.Diagnostics.Process.Start(ps);                                       // Execute the process.
-            }
+                FileName =
+                    @"C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe", // Point the process to PowerShell.
+                Verb = "runas", // Invoke PowerShell as administrator.
+                Arguments = @args // Pass in arguments (commands to remove selected applications).
+            };
+            System.Diagnostics.Process.Start(ps); // Execute the process.
         }
 
         private void btnAdvanced_Click(object sender, EventArgs e)
         {
+            /*
             throw new System.NotImplementedException();
             this.Hide();
             frmAdvanced frmAdvanced = new frmAdvanced();
             frmAdvanced.ShowDialog();
             this.Show();
+            */
         }
     }
 }
