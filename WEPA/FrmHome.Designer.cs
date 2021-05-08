@@ -81,6 +81,7 @@
             this.btnEasy.TabIndex = 3;
             this.btnEasy.Text = "Easy Privacy";
             this.btnEasy.UseVisualStyleBackColor = true;
+            this.btnEasy.Click += new System.EventHandler(this.btnEasy_Click);
             // 
             // lblEasy
             // 
@@ -129,6 +130,7 @@
             this.btnAdvanced.TabIndex = 6;
             this.btnAdvanced.Text = "Advanced";
             this.btnAdvanced.UseVisualStyleBackColor = true;
+            this.btnAdvanced.Click += new System.EventHandler(this.btnAdvanced_Click);
             // 
             // FrmHome
             // 
