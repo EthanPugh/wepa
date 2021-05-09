@@ -19,15 +19,13 @@ This software was created as part of my third year research project for my bache
 
 This project may not get updated frequently in future, but it should work for the applications it currently supports for the forseeable future.
 
-### Built With
+## Building and Usage
 The software is coded primarily in C# but takes advantage of the PowerShell scripting language for the removal of the applications. Development started in Visual Studio, but moved to JetBrains Rider.
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [PowerShell](https://docs.microsoft.com/en-us/powershell/)
 * [Visual Studio](https://visualstudio.microsoft.com/)
 * [JetBrains Rider](https://www.jetbrains.com/rider/)
 
-<!-- GETTING STARTED -->
-## Getting Started
 There are precompiled executables available in '/WEPA/bin/Debug/', but can otherwise be compiled using any C# compiler compatible with .NET Framework 5.0, which can be downloaded [here](https://dotnet.microsoft.com/download/dotnet/5.0).
 
 <!-- CONTACT -->
