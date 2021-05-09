@@ -4,8 +4,29 @@
     <projectFile>WEPA/WEPA.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="">
+    <list default="true" id="95ed3578-5d05-4c37-919b-a0c6d513fb76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WEPA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/WEPA.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/bin/Debug/net5.0-windows/ref/WEPA.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.FrmAdvanced.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.FrmHome.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/WEPA.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/Debug/net5.0-windows/ref/WEPA.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEPA/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WEPA/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,20 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/WEPA/FrmHome.Designer.cs" />
-      <option value="$PROJECT_DIR$/WEPA/FrmAdvanced.Designer.cs" />
-      <option value="$PROJECT_DIR$/WEPA/FrmAdvanced.cs" />
-      <option value="$PROJECT_DIR$/WEPA/FrmHome.cs" />
-      <option value="$PROJECT_DIR$/WEPA/Apps.cs" />
-      <option value="$PROJECT_DIR$/WEPA/Program.cs" />
-      <option value="$PROJECT_DIR$/.gitignore" />
-      <option value="$PROJECT_DIR$/.git/info/exclude" />
-    </changedPaths>
-  </component>
-  <component name="ProjectId" id="1sGODF2B3JWn7ubfMElgAhBOxzi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1sJTNahE2BEbM8Y4FzbYUB7W8PA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -63,123 +71,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e73675f-a296-4511-8974-7513bd98a32c" name="Default Changelist" comment="" />
-      <created>1620495339117</created>
+      <changelist id="95ed3578-5d05-4c37-919b-a0c6d513fb76" name="Default Changelist" comment="" />
+      <created>1620589655928</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620495339117</updated>
-      <workItem from="1620495345460" duration="17000" />
-      <workItem from="1620495467715" duration="674000" />
-      <workItem from="1620506547299" duration="16000" />
-      <workItem from="1620506719644" duration="4174000" />
-      <workItem from="1620511114063" duration="1832000" />
+      <updated>1620589655928</updated>
+      <workItem from="1620589659858" duration="462000" />
+      <workItem from="1620590137648" duration="187000" />
     </task>
-    <task id="LOCAL-00001" summary="Updated home page">
-      <created>1620496128747</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1620496128747</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Finalised home form">
-      <created>1620507638203</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1620507638203</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added easy functionality">
-      <created>1620507837887</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1620507837888</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Cleaned up code">
-      <created>1620508625884</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1620508625884</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Updated compiled files">
-      <created>1620508708086</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1620508708086</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added and completed Advanced form">
-      <created>1620509953198</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1620509953198</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Code cleanup">
-      <created>1620510072615</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1620510072615</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Code cleanup">
-      <created>1620510093722</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1620510093722</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Updated compiles">
-      <created>1620510119189</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1620510119189</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Workspace update">
-      <created>1620510203471</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1620510203471</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Cleanup compiles">
-      <created>1620510407212</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1620510407212</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Full cleanup and compile">
-      <created>1620510925650</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1620510925650</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Updated gitignore">
-      <created>1620511620237</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1620511620237</updated>
-    </task>
-    <task id="LOCAL-00014" summary="gitignore">
-      <created>1620511783858</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1620511783858</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Removed redundant files">
-      <created>1620511896510</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1620511896510</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,37 +86,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Updated home page" />
-    <MESSAGE value="Finalised home form" />
-    <MESSAGE value="Added easy functionality" />
-    <MESSAGE value="Cleaned up code" />
-    <MESSAGE value="Updated compiled files" />
-    <MESSAGE value="Added and completed Advanced form" />
-    <MESSAGE value="Code cleanup" />
-    <MESSAGE value="Updated compiles" />
-    <MESSAGE value="Workspace update" />
-    <MESSAGE value="Cleanup compiles" />
-    <MESSAGE value="Full cleanup and compile" />
-    <MESSAGE value="Updated gitignore" />
-    <MESSAGE value="gitignore" />
-    <MESSAGE value="Removed redundant files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant files" />
   </component>
 </project>
