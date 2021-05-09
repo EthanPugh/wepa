@@ -28,9 +28,7 @@ The software is coded primarily in C# but takes advantage of the PowerShell scri
 
 <!-- GETTING STARTED -->
 ## Getting Started
-There are precompiled executables available in '/WEPA/bin/Debug/', but can otherwise be compiled using any C# compiler compatible with .NET Framework 5.0.
-### Prerequisites
-As previously mentioned, .NET Framework 5.0 is required to run this software, which can be downloaded [here](https://dotnet.microsoft.com/download/dotnet/5.0).
+There are precompiled executables available in '/WEPA/bin/Debug/', but can otherwise be compiled using any C# compiler compatible with .NET Framework 5.0, which can be downloaded [here](https://dotnet.microsoft.com/download/dotnet/5.0).
 
 <!-- CONTACT -->
 ## Contact
